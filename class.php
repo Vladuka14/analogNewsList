@@ -1,15 +1,5 @@
 <?php
 
-use Bitrix\Main\Application;
-use Bitrix\Main\Loader;
-
-use Bitrix\Highloadblock as HL;
-
-use Bitrix\Tasks\TaskTable;
-
-CModule::IncludeModule("tasks");
-
-
 class AnalogNewslist extends CBitrixComponent
 {
     private $IBLOCK_ID;
